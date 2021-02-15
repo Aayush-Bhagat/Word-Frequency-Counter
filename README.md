@@ -6,7 +6,6 @@ puts every word it finds in the file into a binary search tree, if that word is 
 throughout the files. After every file has been scanned, the program writes all the words in alphabetical order and the number of times the word has shown up into
 a text (.txt) file called output.txt. 
 
-
 Implementation: 
 To get a word from the file I would first open the file. After I would read character by character to see if the character was an alphabet character
 or not. If it was I would concat it to a string. I would ddo this until I came across a cahracter that was not an alphabetic character.
