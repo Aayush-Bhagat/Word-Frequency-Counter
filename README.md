@@ -15,7 +15,7 @@ I did this for all input methods(STDIN, environment variables, argument variable
 
 To handle the word I would first call incrementWord() which would increment the word if it was foundd in the BST and return 1, but if the wordd was not found it would return 0. If it return 0, then I would add the word to the BST as it wasn't in the BST already. 
 
-After adding all the wordds to the BST, I made an output file called output.txt.
+After adding all the words to the BST, I made an output file called output.txt.
 I made this file write only and truncated it so it would be overwritten everytime the program was run. 
 To ouput the BST into the output.txt file I would go through all the BSTs in a for loop and use inorder traverasal 
 on each BST, so that it would write inorder. I would write every node's word and count into the output.txt file. 
