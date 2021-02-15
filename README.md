@@ -1,7 +1,4 @@
-# WordFreak
-This is a project I created for the UMass course CS230
-
-Video Link of program running: https://youtu.be/DKUJVtM3nGc
+# Word Frecuency Counter
 
 Overview:
 This program can take multiple files from 3 different sources (STDIN, environment variables, and argument variables) as inputs. It takes these text files and and
